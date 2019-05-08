@@ -1,0 +1,6 @@
+set -ex
+
+pip install git+ssh://git@github.com/amueller/word_cloud.git
+
+
+jupyter lab clean
